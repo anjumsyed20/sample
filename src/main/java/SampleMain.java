@@ -16,7 +16,7 @@ public class SampleMain {
         s.add(new Student(5,"naziya"));
         s.add(new Student(6,"naziya"));
         s.add(new Student(10,"naziya"));
-//        using stream api to get average of student age
+        /* using stream api to get average of student age */
         System.out.println("Average"+s
                 .stream()
                 .collect(Collectors.averagingInt(st->st.age)));
