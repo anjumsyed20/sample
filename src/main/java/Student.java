@@ -1,11 +1,11 @@
 public class Student {
-    int id;
+    int age;
     String name;
 
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + id +
+                "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
     }
@@ -13,8 +13,8 @@ public class Student {
     public Student() {
     }
 
-    public Student(int id, String name) {
-        this.id = id;
+    public Student(int age, String name) {
+        this.age = age;
         this.name = name;
     }
 
@@ -29,11 +29,11 @@ public class Student {
 
 
 
-    public int getId() {
-        return id;
+    public int getAge() {
+        return age;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setAge(int age) {
+        this.age = age;
     }
 }
